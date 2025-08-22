@@ -2,7 +2,9 @@
 import axios from "axios";
 import type { IAudiobook, IStats } from "../types/audiobook";
 
-const API_BASE = "http://localhost:5000/api/audiobooks";
+// const API_BASE = "http://localhost:5000/api/audiobooks";
+const API_BASE = import.meta.env.VITE_API_URL;
+
 
 export const createAudiobook = async (data: Partial<IAudiobook>): Promise<IAudiobook> => {
   const response = await axios.post<IAudiobook>(`${API_BASE}/create`, data);
