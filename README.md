@@ -5,26 +5,30 @@ It was developed as per **Addis Software’s requirements** using modern technol
 
 🔗 **Live Demo (Frontend)**: [Audiobook Manager on Netlify](https://audiobookmanager.netlify.app/)
 
-
+---
 
 ## 🚀 Features
+
 - 📋 **CRUD operations** (Create, Update, Delete, List audiobooks)   
 - 📊 **Statistics dashboard** with responsive bar & pie charts (powered by Nivo)  
 - 🎨 **Styled with Emotion + Styled-System** for reusable UI components  
 - 🔍 **Bonus**: Added filtering option (by category/genre)  
 - ☁️ **Deployment**: Frontend on **Netlify**, Backend on **Render**  
+- 🐳 **Dockerized**: Easily run with Docker and Docker Compose  
 
-
+---
 
 ## 🛠️ Technologies Used
 
 ### 🔹 Backend
+
 - **ExpressJS** → handle REST API requests  
 - **MongoDB** → database for storing audiobook data  
 - **Mongoose** → schema modeling and data validation  
 - **Render** → backend hosting  
 
 ### 🔹 Frontend
+
 - **ReactJS (with Vite)** → build user interface  
 - **TypeScript** → strict typing, minimal `any` usage  
 - **Redux Toolkit** → state management  
@@ -33,11 +37,12 @@ It was developed as per **Addis Software’s requirements** using modern technol
 - **Nivo** → charts for statistics visualization  
 - **Netlify** → frontend hosting  
 
+---
 
-
-## ⚙️ Installation & Setup
+## ⚙️ Installation & Setup (Manual)
 
 ### 1️⃣ Clone the repository
+
 ```bash
 git clone https://github.com/programmermame/addis-software-mern-test.git
 cd addis-software-mern-test
